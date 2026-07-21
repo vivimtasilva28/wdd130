@@ -46,6 +46,7 @@ article {
 
 .hero {
     position: relative;
+
 }
 
 .hero img {
@@ -66,6 +67,9 @@ h1 {
 }
 
 .hero article img {
+    display: block;
     float: right;
-    width: 125px;
+    width: 100%;
+    height: auto;
+    float: none;
 }
